@@ -1,0 +1,51 @@
+* {
+  font-family: 'Helvetica';
+  color: white;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#navbar  {
+  background-color: #1b1b1b;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
+
+.logo img {
+  width: 200px;
+  margin-left: 20px;
+}
+
+.navnav {
+  background-color: #1b1b1b;
+  width: 95%;
+  align-self: center;
+  overflow: auto;
+  text-align: center;
+  font-size: 12.5px;
+}
+
+
+.navnav a {
+  font-weight: bold;
+  text-decoration: none;
+  float: left;
+  width: 25%;
+  display: block;
+  padding: 8px 0 8px 0;
+  border-bottom: 3px solid transparent;
+  border-top: 0.5px solid #363636;
+}
+
+.navnav a.active {
+  border-bottom: 2px solid #f4951d;
+}
+
+.navnav a:hover {
+  border-bottom: 2px solid #f4951d;
+}
