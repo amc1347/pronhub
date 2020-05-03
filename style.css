@@ -30,6 +30,29 @@ body {
   font-size: 12.5px;
 }
 
+.main_content_title {
+  margin: 40px 0 0 0;
+}
+
+.main_content_title h1 {
+  font-size: 20px;
+}
+
+.ad img {
+  width: 20vw;
+}
+
+.ad {
+  float: right;
+  margin-top: -20px;
+  margin-bottom: -50px;
+}
+
+.ad p {
+  margin-top: -40px;
+  background-color: transparent;
+  text-align: ;
+}
 
 .navnav a {
   font-weight: bold;
@@ -37,7 +60,7 @@ body {
   float: left;
   width: 25%;
   display: block;
-  padding: 8px 0 8px 0;
+  padding: 8px 0 8px 0px;
   border-bottom: 3px solid transparent;
   border-top: 0.5px solid #363636;
 }
@@ -48,4 +71,42 @@ body {
 
 .navnav a:hover {
   border-bottom: 2px solid #f4951d;
+}
+
+.main_content {
+display: flex;
+flex-direction: column;
+}
+
+.references {
+  align-self: center;
+  text-align: center;
+}
+
+.references p{
+  line-height: 3px;
+}
+
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0 20px 20px 20px;
+  margin-top: -3vh;
+  grid-column-gap: 5vw;
+  grid-row-gap: 3vh;
+}
+
+.griditem {
+  display: flex;
+  flex-direction: column;
+  padding: 1vmin;
+  border: 1px solid #363636;
+  height: 100%;
+}
+
+.grid_item p {
+  font-style: italic;
+  font-size: 1.3rem;
+
 }
