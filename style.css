@@ -18,12 +18,12 @@ body {
 
 .logo img {
   width: 200px;
-  margin-left: 20px;
+  margin-left: 2px;
 }
 
 .navnav {
   background-color: #1b1b1b;
-  width: 95%;
+  width: 97%;
   align-self: center;
   overflow: auto;
   text-align: center;
@@ -31,7 +31,7 @@ body {
 }
 
 .main_content_title {
-  margin: 40px 0 0 0;
+  margin: 40px 0 0 20px;
 }
 
 .main_content_title h1 {
@@ -49,7 +49,8 @@ body {
 }
 
 .ad p {
-  margin-top: -40px;
+  margin-top: -30px;
+  margin-left: 50px;
   background-color: transparent;
   text-align: ;
 }
@@ -92,7 +93,7 @@ flex-direction: column;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   padding: 0 20px 20px 20px;
-  margin-top: -3vh;
+  margin-top: -18.5vh;
   grid-column-gap: 5vw;
   grid-row-gap: 3vh;
 }
@@ -108,5 +109,27 @@ flex-direction: column;
 .grid_item p {
   font-style: italic;
   font-size: 1.3rem;
+}
 
+.main_content_2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats {
+  margin: 0 20px 0 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.stats h3 {
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.stats img{
+  float: left;
+  height: 60vh;
+  padding: 0px 20px 0 0;
 }

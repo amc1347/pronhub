@@ -15,8 +15,12 @@ let jsondatabasefacts = [
   },
   {
     "image" :"",
-    "caption" :"'After a year or so of that so-called ‘glamorous life,’ I sadly discovered that drugs and drinking were part of the lifestyle. I began to drink and party of out control—cocaine, alcohol, and ecstasy were my favorites. Before long, I turned into a person I did not want to be. After doing so many hardcore scenes, I couldn’t do it anymore. I just remember being in horrible situations and experiencing extreme depression and being alone and sad.' -Andi"
+    "caption" :""
   },
+  // {
+  //   "image" :"",
+  //   "caption" :"'After a year or so of that so-called ‘glamorous life,’ I sadly discovered that drugs and drinking were part of the lifestyle. I began to drink and party of out control—cocaine, alcohol, and ecstasy were my favorites. Before long, I turned into a person I did not want to be. After doing so many hardcore scenes, I couldn’t do it anymore. I just remember being in horrible situations and experiencing extreme depression and being alone and sad.' -Andi"
+  // },
   {
     "image" : "",
     "caption" : "'Amateurs come across better on screen. Our customers feel that. Especially by women you can see it. They still feel strong pain.' – Carlo Scalisi, Owner of 21 Sexury Video"
