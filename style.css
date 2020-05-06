@@ -47,6 +47,7 @@ body {
   font-weight: bold;
   text-decoration: none;
   border: 0 solid transparent;
+  border-radius: 2pt;
 }
 
 .sub_title a {
