@@ -102,7 +102,7 @@ for (var i = 0; i < jsondatabasefacts.length; i++) {
 function element_create(incoming_info) {
 
   let newcontentelement = document.createElement("DIV");
-  newcontentelement.classList.add('grid_item_4');
+  newcontentelement.classList.add('grid_item_5');
 
   let newimage = document.createElement("IMG");
   newimage.classList.add("catagories");
