@@ -199,13 +199,13 @@ flex-direction: column;
 
 .grid_item-4 img.pin , .grid_item-3 img.pin {
   float: right;
-  width: 2%;
+  width: 25px;
 }
 
 .grid_item-4 p.pin , .grid_item-3 p.pin{
   float: right;
-  margin-top: -3.8%;
-  margin-right: 2.5%;
+  margin-top: -50px;
+  margin-right: 30px;
 }
 
 .pinned {
