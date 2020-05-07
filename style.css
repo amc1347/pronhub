@@ -197,6 +197,21 @@ flex-direction: column;
   grid-row-gap: 1.5vh;
 }
 
+.grid_item-4 img.pin , .grid_item-3 img.pin {
+  float: right;
+  width: 2%;
+}
+
+.grid_item-4 p.pin , .grid_item-3 p.pin{
+  float: right;
+  margin-top: -3.8%;
+  margin-right: 2.5%;
+}
+
+.pinned {
+  border: #f4951d solid 1px;
+}
+
 #grid-6 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -236,8 +251,16 @@ flex-direction: column;
   margin-top: -30px;
 }
 
-.grid_item-3 p , .grid_item-4 p{
+.grid_item-3 p , .grid_item-4 p, .grid_item-4 li{
   color: #b8b8b8;
+}
+
+.grid_item-4 li {
+  font-size: 90%;
+}
+
+.pinned li.last {
+  margin-bottom: 10px;
 }
 
 .main_content_2 {

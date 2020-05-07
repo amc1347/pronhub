@@ -1,11 +1,5 @@
 let gridelement = document.getElementById('grid-4');
 let jsondatabasefacts = [
-
-  {
-    "image" : "username/regan.jpg",
-    "title" :"Regan Starr",
-    "caption" :"'I got the shit kicked out of me. I was told before the video – and they said this very proudly, mind you – that in this line most of the girls start crying because they’re hurting so bad . . . I couldn’t breathe. I was being hit and choked. I was really upset, and they didn’t stop. They kept filming. You can hear me say, ‘Turn the f*cking camera off’, and they kept going.'"
-  },
   {
     "image" : "username/tamra.jpeg",
     "title" :"Tamra Toryn",
@@ -47,7 +41,7 @@ let jsondatabasefacts = [
     "caption" :"'My first movie I was treated very rough by 3 guys. They pounded on me, gagged me with their penises, and tossed me around like I was a ball! I was sore, hurting and could barely walk.' "
   },
   {
-    "image" : "username/jersey.jpg",
+    "image" : "username/jsersey.jpg",
     "title" :"Jersey Jaxin",
     "caption" :"'Guys punching you in the face. You have semen from many guys all over your face, in your eyes. You get ripped. Your insides can come out of you. It’s never ending.' "
   },
